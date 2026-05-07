@@ -35,7 +35,7 @@ This project focuses on manuscript digitization and low-resource OCR experimenta
 ```bash
 OCR_PIPELINE/
 │
-├── transcriptor_iitt.py
+├── palm_leaf_ocr.py
 ├── README.md
 ├── requirements.txt
 ├── labels.txt
@@ -75,14 +75,22 @@ pip install -r requirements.txt
 ### Windows
 
 ```bash
-python transcriptor_iitt.py
+python palm_leaf_ocr.py
 ```
 
 ### Linux / macOS
 
 ```bash
-python3 transcriptor_iitt.py
+python3 palm_leaf_ocr.py
 ```
+
+---
+
+# 📥 Manuscript PDF Source
+
+The Palm Leaf Manuscript PDF used for experimentation can be downloaded from:
+
+[Palm Leaf Manuscript PDF Source](https://archive.org/details/gita_20240219/page/n7/mode/2up)
 
 ---
 
